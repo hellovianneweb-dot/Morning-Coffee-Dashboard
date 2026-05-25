@@ -1,4 +1,4 @@
-# Morning Coffee & Tea — Dashboard
+# Morning Coffee & Tea Dashboard
 
 ## Sitemap
 
