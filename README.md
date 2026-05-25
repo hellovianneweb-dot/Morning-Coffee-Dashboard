@@ -1,36 +1,93 @@
-# Morning Coffee & Tea : Dashboard
+# Morning Coffee & Tea : Admin Dashboard
 
-## Sitemap
+## Setup
 
-### Pages
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+Open:
+
+```txt
+http://localhost:5173
+```
+
+---
+
+## Pages
 
 - `/` — Order Tracking
-- `/inventory` — Inventory
-- `/suppliers` — Suppliers
-- `/reports` — Reports
+- `/inventory` — Inventory Overview
+- `/suppliers` — Supplier List
+- `/reports` — Report Summary
 
 ---
 
-## Components
+## Main Files
 
-- `src/components/layout/AppSidebar.vue` — Sidebar navigation
-- `src/components/layout/AppHeader.vue` — Top header bar
+### Components
+
+- `src/components/layout/AppSidebar.vue`
+- `src/components/layout/AppHeader.vue`
+- `src/components/layout/header/SearchBar.vue`
+
+### Views
+
+Located in:
+
+```txt
+src/views/MorningCoffee/
+```
+
+- `OrderTracking.vue`
+- `InventoryOverview.vue`
+- `SupplierList.vue`
+- `ReportSummary.vue`
+
+### Config
+
+- `src/router/index.ts`
+- `src/composables/useSidebar.ts`
+
+### Styles
+
+- `src/assets/main.css`
 
 ---
 
-## Views
+## Stack
 
-- `src/views/MorningCoffee/` — Main dashboard views
-
----
-
-## Assets
-
-- `src/assets/main.css` — Global styles
+- Vue 3
+- Vite
+- CSS
+- Vue Router
+- TypeScript
 
 ---
 
-## Config
+## Troubleshooting
 
-- `src/router/index.ts` — Route definitions
-- `src/composables/useSidebar.ts` — Sidebar state
+If the project does not run:
+
+```bash
+npm install
+npm run dev
+```
+
+If dependencies are broken:
+
+```bash
+rm -rf node_modules
+npm install
+npm run dev
+```
+
+Node.js 18+ recommended.
