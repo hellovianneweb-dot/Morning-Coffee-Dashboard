@@ -1,4 +1,4 @@
-# Morning Coffee & Tea Dashboard
+# Morning Coffee & Tea — Dashboard
 
 ## Sitemap
 
@@ -9,20 +9,28 @@
 - `/suppliers` — Suppliers
 - `/reports` — Reports
 
-### Components
+---
+
+## Components
 
 - `src/components/layout/AppSidebar.vue` — Sidebar navigation
 - `src/components/layout/AppHeader.vue` — Top header bar
 
-### Views
+---
+
+## Views
 
 - `src/views/MorningCoffee/` — Main dashboard views
 
-### Assets
+---
+
+## Assets
 
 - `src/assets/main.css` — Global styles
 
-### Config
+---
+
+## Config
 
 - `src/router/index.ts` — Route definitions
 - `src/composables/useSidebar.ts` — Sidebar state
